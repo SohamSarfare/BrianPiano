@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***************************************************************************************
+* GLOBAL ELEMENTS
+***************************************************************************************/
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Individual Headings */
+
+
+/***************************************************************************************
+* BASIC TYPOGRAPHY
+***************************************************************************************/
+
+p {
+}
+
+b,
+strong { font-weight: bold; }
+
+em { font-style: normal; }
+
+a,
+a:link,
+a:visited  {
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+}
+
+a:hover,
+a:focus,
+a:active { 
+}
+
+
+/***************************************************************************************
+* STUCTURE
+***************************************************************************************/
+
+
+/***************************************************************************************
+* PAGE ELEMENTS
+***************************************************************************************/
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	margin-top: 25px;
+	background-color: #e7fa49;
+	padding-top: 11px;
+	padding-right: 11px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+}
+
+
+/***************************************************************************************
+* MEDIA QUERIES - Tablet
+***************************************************************************************/
+
+
+/***************************************************************************************
+* MEDIA QUERIES - Desktop
+***************************************************************************************/
+
+.social {
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header nav a {
+	text-decoration: none;
+	color: #000000;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+main {
+}
+
+.mainHeader {
+	background-image: url(../images/HeaderBackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.mainContent {
+	background-image: url(../images/Piano.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 1000px;
+	background-position: center -150px;
+	background-size: cover;
+}
+.mainText {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 56px;
+	font-size: large;
+
+
+}
+
+.mainText p {
+	background-color: rgba(0,0,0,0.74);
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+	padding-left: 35px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	line-height: 30px;
+	font-size: x-large;
+}
+.mainText h1 {
+	background-color: #f9fafb;
+	font-size: 39pt;
+	margin-bottom: -25px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+}
+table {
+	margin-right: auto;
+	margin-left: auto;
+}
+tr td p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	line-height: 30px;
+}
+.lessons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+h1  {
+	font-size: 39pt;
+}
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	line-height: 30px;
+	color: #535353;
+}
+.lessons p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	line-height: 30px;
+	margin-right: 125px;
+	margin-left: 125px;
+}
+
+.arrowLeft {
+	font-size: large;
+	border: thin solid rgba(187,187,187,1.00);
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background-color: rgba(255,255,255,1.00);
+}
+.arrowRight {
+	background-color: #45e536;
+	color: rgba(0,0,0,1.00);
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.benefits {
+	text-align: center;
+	margin-top: 50px;
+}
+.benefits ul {
+	text-align: left;
+	padding-top: 15px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+	padding-left: 35px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	line-height: 29px;
+	font-size: x-large;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	list-style-position: inside;
+	color: rgba(63,63,63,1.00);
+}
+.contact {
+	text-align: center;
+}
+form {
+	background-color: rgba(209,209,209,1.00);
+	padding-top: 12px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	margin-top: 25px;
+}
+input {
+	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	border-style: none;
+	padding-left: 12px;
+}
+textarea {
+	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	border-style: none;
+	padding-left: 12px;
+}
+.buttonSubmit {
+	background-color: #f9fe70;
+	border-style: none;
+}
+
+
+
+form p {
+	color: rgba(0,0,0,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerSection {
+	text-align: center;
+	width: 100%;
+	padding-top: 41px;
+}
+
+
+.footerText {
+	margin-top: 10px;
+	font-size: small;
+}
