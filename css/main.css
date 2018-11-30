@@ -408,6 +408,7 @@ header {
 	padding-right: 0px;
 	text-align: center;
 }
+
 .mainHeader img {
 	width: 100%;
 
@@ -422,7 +423,7 @@ form {
 	margin-top: 25px;
 }
 h1 {
-	font-size: 39pt;
+	font-size: 33pt;
 	text-align: center;
 }
 p {
