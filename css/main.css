@@ -151,7 +151,7 @@ main {
 	padding-right: 35px;
 	padding-bottom: 35px;
 	padding-left: 35px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: GothamBook;
 	line-height: 30px;
 	font-size: x-large;
 }
@@ -163,15 +163,7 @@ main {
 	padding-right: 6px;
 	padding-bottom: 6px;
 	padding-left: 6px;
-}
-table {
-	margin-right: auto;
-	margin-left: auto;
-}
-tr td p {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size: x-large;
-	line-height: 30px;
+	font-family: GothamBold;
 }
 .certRsc {
 	width: 65%;
@@ -284,6 +276,7 @@ textarea {
 
 form p {
 	color: rgba(0,0,0,1.00);
+	font-family: GothamBook;
 }
 
 
