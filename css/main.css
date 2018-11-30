@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@import url("../../webfonts/GothamBold/stylesheet.css");
+@import url("../../webfonts/GothamBook/stylesheet.css");
+
+
 /* CSS Document */
 
 /***************************************************************************************
@@ -193,9 +197,10 @@ tr td p {
 
 h1  {
 	font-size: 39pt;
+	font-family: GothamBold;
 }
 p {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: GothamBook;
 	font-size: x-large;
 	line-height: 30px;
 	color: #535353;
