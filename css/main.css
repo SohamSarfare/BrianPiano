@@ -93,6 +93,7 @@ header {
 header img {
 	float: left;
 	width: 235px;
+	display: inline;
 }
 
 nav {
@@ -190,8 +191,8 @@ p {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size: x-large;
 	line-height: 30px;
-	margin-right: 125px;
-	margin-left: 125px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
 .arrowLeft {
@@ -309,4 +310,52 @@ form p {
 .footerText {
 	margin-top: 10px;
 	font-size: small;
+}
+
+@media (min-width:400px) and (max-width:768px){
+.mainText {
+	max-width: 768px;
+	padding-top: 222px;
+	font-size: large;
+	margin-left: 0px;
+	margin-right: 0px;
+
+
+}
+.mainContent {
+	background-image: url(../images/Piano.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 1000px;
+	background-position: center 0px;
+	background-size: cover;
+}
+nav {
+	float: right;
+	margin-top: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right: 24px;
+}
+header img {
+	/* [disabled]display: none; */
+}
+
+
+
+
+}
+
+@media (max-width:400px){
+header img {
+	
+	display: none;
+}
+nav {
+	float: none;
+	margin-top: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+
 }
