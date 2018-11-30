@@ -399,6 +399,8 @@ nav {
 header {
 	background-color: #e7fa49;
 	width: 100%;
+	height: 35px;
+	padding-top: 15px;
 }
 .certRsc {
 	width: 100%;
