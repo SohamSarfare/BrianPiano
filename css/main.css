@@ -312,7 +312,7 @@ form p {
 	font-size: small;
 }
 
-@media (min-width:400px) and (max-width:768px){
+@media (min-width:500px) and (max-width:768px){
 .mainText {
 	max-width: 768px;
 	padding-top: 222px;
@@ -339,13 +339,17 @@ nav {
 header img {
 	/* [disabled]display: none; */
 }
+header {
+	background-color: rgba(73,71,255,1.00);
+}
+
 
 
 
 
 }
 
-@media (max-width:400px){
+@media (max-width:500px){
 header img {
 	
 	display: none;
@@ -356,6 +360,10 @@ nav {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 }
+header {
+	background-color: rgba(247,56,59,1.00);
+}
+
 
 
 }
