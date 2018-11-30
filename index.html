@@ -19,15 +19,25 @@
 
 <!--JS-->
 <script src="js/modernizr.custom.10791.js"></script>
+<script src="js/scripts.js"></script>
 	
 </head>
 
 <body>
 <div class="container">
 	<header>
-		<div class="social">
-	    <img src="images/social media.png" alt="Brian Graham Social" width="100%"/>
-	    </div>
+		
+	    <img src="images/social media.png" alt="Brian Graham Social" width="100%" usemap="#Map2"/>
+        <map name="Map2">
+          <area shape="rect" coords="2,2,17,25" href="#">
+          <area shape="rect" coords="29,2,52,28" href="#">
+          <area shape="rect" coords="65,2,97,29" href="#">
+          <area shape="rect" coords="107,1,129,24" href="#">
+          <area shape="rect" coords="138,1,166,30" href="#">
+          <area shape="rect" coords="175,0,202,31" href="#">
+          <area shape="rect" coords="211,4,241,43" href="#">
+        </map>
+	    
 	    <nav>
 	    	| <a href="#about">About</a> | 
 	    	<a href="#lessons">Lessons</a> |
@@ -125,7 +135,16 @@
   	  	Click below to Contact Us on Social Media
   	  </p>
   	  <br>
-  	  <img src="images/social media.png" alt="" width="350px"/> 
+  	  <img src="images/social media.png" alt="" width="350px" usemap="#Map"/>
+      <map name="Map">
+        <area shape="rect" coords="-2,4,28,37" href="#">
+        <area shape="rect" coords="40,5,78,36" href="#">
+        <area shape="rect" coords="94,4,141,51" href="#">
+        <area shape="rect" coords="155,6,197,64" href="#">
+        <area shape="rect" coords="208,4,244,67" href="#">
+        <area shape="rect" coords="259,4,299,47" href="#">
+        <area shape="rect" coords="311,4,352,56" href="#">
+      </map> 
   	  <form action="mail.php">
   	  	<p>Fill out the form to reach out to us</p>
   	  	<input type="text" placeholder="Full Name" id="name"><br>
@@ -136,6 +155,7 @@
   	  
   	  </div>
 	</main>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" class="buttonTop">^</button>
 	<footer>
 	  <div class="footerSection">
 	  <img src="images/logo.png" alt="" width="400px"/>

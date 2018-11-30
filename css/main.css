@@ -9,13 +9,15 @@ html{
 }
 
 body {
+	width: auto;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	width: auto;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	-ms-interpolation-mode: bicubic;
-}
 .clearfix:after, .clearfix:before {
 	content: "";
 	display: table;
@@ -64,12 +66,15 @@ a:active {
 	margin-right: auto;
 }
 header {
-	margin-top: 25px;
 	background-color: #e7fa49;
 	padding-top: 11px;
 	padding-right: 11px;
 	padding-bottom: 11px;
 	padding-left: 11px;
+	position: fixed;
+	top: 0px;
+	max-width: 1178px;
+	width: 100%;
 }
 
 
@@ -85,6 +90,11 @@ header {
 .social {
 	float: left;
 }
+header img {
+	float: left;
+	width: 235px;
+}
+
 nav {
 	float: right;
 	margin-top: 5px;
@@ -163,6 +173,10 @@ tr td p {
 	width: 100%;
 	text-align: center;
 }
+.lessons img {
+	max-width: 100%;
+}
+
 h1  {
 	font-size: 39pt;
 }
@@ -261,7 +275,28 @@ form p {
 
 
 
-
+.buttonTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: #000000;
+	color: white;
+	cursor: pointer;
+	padding-top: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 8px;
+	border-radius: 4px;
+	transition: display 1s;
+}
+.buttonTop:hover {
+  background-color: #555;
+}
 
 
 .footerSection {
