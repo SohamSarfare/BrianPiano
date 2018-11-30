@@ -14,9 +14,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-img {
-	width: auto;
-}
 
 .clearfix:after, .clearfix:before {
 	content: "";
@@ -100,6 +97,7 @@ nav {
 	float: right;
 	margin-top: 5px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right: 17px;
 }
 header nav a {
 	text-decoration: none;
@@ -119,6 +117,9 @@ main {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.mainHeader img {
+}
+
 
 .mainContent {
 	background-image: url(../images/Piano.png);
@@ -168,6 +169,18 @@ tr td p {
 	font-size: x-large;
 	line-height: 30px;
 }
+.certRsc {
+	width: 65%;
+	float: left;
+	/* [disabled]padding-left: 1%; */
+}
+.logoRsc {
+	width: 30%;
+	float: left;
+	/* [disabled]padding-left: 1%; */
+}
+
+
 .lessons {
 	margin-left: auto;
 	margin-right: auto;
@@ -223,9 +236,9 @@ p {
 	font-size: x-large;
 	margin-left: auto;
 	margin-right: auto;
-	width: 750px;
 	list-style-position: inside;
 	color: rgba(63,63,63,1.00);
+	max-width: 750px;
 }
 .contact {
 	text-align: center;
@@ -340,8 +353,31 @@ header img {
 	/* [disabled]display: none; */
 }
 header {
-	background-color: rgba(73,71,255,1.00);
+	background-color: #e7fa49;
 }
+tr td p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: large;
+	line-height: 30px;
+}
+.mainHeader img {
+
+
+}
+.mainHeader {
+	background-image: url(../images/HeaderBackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-right: auto;
+	margin-left: 0px;
+}
+
+
+
 
 
 
@@ -361,8 +397,58 @@ nav {
 	text-align: center;
 }
 header {
-	background-color: rgba(247,56,59,1.00);
+	background-color: #e7fa49;
+	width: 100%;
 }
+.certRsc {
+	width: 100%;
+}
+.logoRsc {
+	width: 100%;
+	padding-right: 0px;
+	text-align: center;
+}
+.mainHeader img {
+	width: 100%;
+
+}
+form {
+	background-color: rgba(209,209,209,1.00);
+	padding-top: 12px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	margin-top: 25px;
+}
+h1 {
+	font-size: 39pt;
+	text-align: center;
+}
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	line-height: 30px;
+	color: #535353;
+	padding-left: 1%;
+	text-align: center;
+	padding-right: 1%;
+}
+.mainContent {
+	background-image: url(../images/Piano.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 1000px;
+	background-position: center 0px;
+	background-size: cover;
+}
+
+
+
+
+
+
+
 
 
 
