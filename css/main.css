@@ -347,7 +347,7 @@ form p {
 @media (min-width:320px) and (max-width:768px){
 .mainText {
 	max-width: 768px;
-	padding-top: 222px;
+	padding-top: 5px;
 	font-size: large;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -425,6 +425,26 @@ form {
 .footerSection img {
 	width: 86%;
 }
+.mainContent {
+	background-image: url(../images/Piano.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 1000px;
+	background-position: center 0px;
+	background-size: cover;
+}
+.mainText h1 {
+	background-color: #f9fafb;
+	font-size: 30pt;
+	margin-bottom: -25px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	text-align: center;
+}
+
+
 
 
 
@@ -544,6 +564,7 @@ nav {
 	margin-right: auto;
 	text-align: center;
 }
+
 
 
 
