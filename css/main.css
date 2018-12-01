@@ -168,12 +168,10 @@ main {
 .certRsc {
 	width: 65%;
 	float: left;
-	/* [disabled]padding-left: 1%; */
 }
 .logoRsc {
 	width: 30%;
 	float: left;
-	/* [disabled]padding-left: 1%; */
 }
 
 
@@ -190,10 +188,12 @@ main {
 h1  {
 	font-size: 39pt;
 	font-family: GothamBold;
+	text-align: center;
 }
 h2 {
 	font-size: 39pt;
 	font-family: GothamBold;
+	text-align: center;
 }
 
 p {
@@ -201,6 +201,7 @@ p {
 	font-size: x-large;
 	line-height: 30px;
 	color: #535353;
+	text-align: center;
 }
 .lessons p {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -252,6 +253,10 @@ p {
 .contact {
 	text-align: center;
 }
+.contact img {
+	width: 350px;
+}
+
 form {
 	background-color: rgba(209,209,209,1.00);
 	padding-top: 12px;
@@ -350,7 +355,7 @@ form p {
 
 }
 .mainContent {
-	background-image: url(../images/Piano.png);
+	background-image: url(../images/Piano.jpg);
 	background-repeat: no-repeat;
 	text-align: center;
 	height: 1000px;
@@ -391,6 +396,37 @@ tr td p {
 	margin-right: auto;
 	margin-left: 0px;
 }
+h2 {
+	font-size: 22pt;
+	font-family: GothamBold;
+}
+form {
+	background-color: rgba(209,209,209,1.00);
+	padding-top: 12px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	margin-top: 25px;
+}
+.certRsc {
+	width: 100%;
+}
+.logoRsc {
+	width: 100%;
+	text-align: center;
+}
+.lessons a table {
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
 
 
 
@@ -412,6 +448,8 @@ nav {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	font-size: large;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 header {
 	background-color: #e7fa49;
@@ -442,7 +480,7 @@ form {
 }
 .mainText h1 {
 	background-color: #f9fafb;
-	font-size: 28pt;
+	font-size: 22pt;
 	margin-bottom: -25px;
 	padding-top: 6px;
 	padding-right: 6px;
@@ -451,8 +489,12 @@ form {
 	text-align: center;
 }
 h1 {
-	font-size: 28pt;
+	font-size: 23pt;
 	text-align: center;
+}
+h2 {
+	font-size: 22pt;
+	font-family: GothamBold;
 }
 p {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -474,6 +516,36 @@ p {
 .footerSection img {
 	width: 86%;
 }
+.contact img {
+	width: 100%;
+}
+nav {
+	float: right;
+	margin-top: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right: 0px;
+	text-align: right;
+}
+.mainContent {
+	background-image: url(../images/Piano.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 1000px;
+	background-position: center 0px;
+	background-size: cover;
+}
+.lessons a table {
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+
 
 
 
