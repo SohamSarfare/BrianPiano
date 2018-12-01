@@ -364,7 +364,8 @@ nav {
 	margin-right: 24px;
 }
 header img {
-	/* [disabled]display: none; */
+
+
 }
 header {
 	background-color: #e7fa49;
@@ -375,6 +376,7 @@ tr td p {
 	line-height: 30px;
 }
 .mainHeader img {
+	width: 86%;
 
 
 }
