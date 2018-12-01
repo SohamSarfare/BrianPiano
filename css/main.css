@@ -126,7 +126,7 @@ main {
 
 
 .mainContent {
-	background-image: url(../images/Piano.png);
+	background-image: url(../images/Piano.jpg);
 	background-repeat: no-repeat;
 	text-align: center;
 	height: 1000px;
@@ -209,6 +209,12 @@ p {
 	margin-right: 25px;
 	margin-left: 25px;
 }
+.lessons a table {
+	width: 23%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 
 .arrowLeft {
 	font-size: large;
@@ -217,6 +223,7 @@ p {
 	border-bottom-left-radius: 7px;
 	background-color: rgba(255,255,255,1.00);
 }
+
 .arrowRight {
 	background-color: #45e536;
 	color: rgba(0,0,0,1.00);
